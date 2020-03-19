@@ -14,7 +14,7 @@ a{
     
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Source Serif Pro', serif;
     letter-spacing: 1.2px;
     line-height: 1.4;
 }
@@ -111,6 +111,9 @@ a.nav-link:hover{
     border: 1px solid purple;
     background: purple;
     transition: .35s;
+}
+.slider-content h1{
+    font-weight: 700 !important;
 }
 .slider-content > a:hover{
     background: transparent;
