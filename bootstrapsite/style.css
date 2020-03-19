@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*default css*/
+/*default css*/
+a,h1,h2,h3,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    
+}
+body{
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
+}
+
+
+/*navbar css*/
+.nav-bar-area-start{
+    background: purple;
+}
+.dropdown-item{
+    transition: .4s ease-in-out;
+}
+.dropdown-item:hover{
+    background: purple;
+    color: #fff;
+}
+.bg-purple{
+    background: purple;
+    color: #fff !important;
+}
+
+/*banner area css*/
+.banner-area-start{
+    height: 100vh;
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.banner-area-start::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #000;
+    opacity: .7;
+    z-index: -1
+}
+
+
+/*slider area css start*/
+.slider-active{
+    position: relative
+}
+.single-slider {
+    height: 80vh;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1
+}
+.single-slider:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background:rgba(0, 0, 0, 0) linear-gradient(to right, #fff, #000) repeat scroll 0 0;
+    z-index: -1;
+    opacity: .4;
+}
+.single-slider h1, .single-slider p{
+    color: #fff
+}
+.single-slider h1 span{
+    color: purple;
+}
+.single-slider .slider-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 100px
+}
+.slider-content > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border: 1px solid purple;
+    background: purple;
+    transition: .35s;
+}
+.slider-content > a:hover{
+    background: transparent;
+}
+.slider-active .owl-nav div{
+    position: absolute;
+    left: 10px;
+    top: 42%
+}
+.slider-active .owl-nav .owl-next{
+    left: auto;
+    right: 10px;
+    background: red
+}
+.slider-active .owl-nav .owl-prev, .slider-active .owl-nav .owl-next{
+    font-size: 40px;
+    background: none;
+    transition: 0.3s ease;
+    color: #fff;
+    padding: 10px 20px
+}
+.slider-active .owl-nav .owl-prev:hover, .slider-active .owl-nav .owl-next:hover{
+    border-radius:50%
+}
+.slider-active .owl-dots{
+    position: absolute;
+    left: 48%;
+    bottom: 30px
+}
+.slider-active .owl-theme .owl-dots .owl-dot span{
+    border-radius: 0;
+    background: #fff
+}
+.slider-active.owl-theme .owl-dots .owl-dot span {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    height: 5px;
+    width: 30px;
+    transition: 0.3s ease-in-out
+}
+
+.slider-active.owl-theme .owl-dots .owl-dot.active span:hover{
+    width: 40px
+}
+.slider-active.owl-theme .owl-dots .owl-dot.active span{
+    background: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project area css*/
+
+.title-heading{
+    color: purple;
+    margin-bottom: 5px;
+}
+.single-project{
+    transition:  all .3s;
+}
+
+.single-project:hover {
+    box-shadow: 0 0 3px purple;
+    transform: translateY(-2px);
+}
+
+
+/*progress area css*/
+
+.progress-area-start h2{
+    color: purple;
+}
+
+.footer-area-start{
+    background: purple;
+    color: ghostwhite;
+}
+.footer-area .quick-links li{
+    list-style: none;
+}
+.footer-area .quick-links li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s;
+}
+.footer-area .quick-links li a:hover{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
