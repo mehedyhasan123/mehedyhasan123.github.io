@@ -24,6 +24,14 @@ body{
 .nav-bar-area-start{
     background: purple;
 }
+a.nav-link{
+    transition: all .4s;
+    margin-left: 5px;
+    padding-bottom: 2px;
+}
+a.navlink:hover{
+    border-bottom: 2px solid #eee;
+}
 .dropdown-item{
     transition: .4s ease-in-out;
 }
